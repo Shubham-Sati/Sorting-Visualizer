@@ -1,0 +1,140 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	font-size: large;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+nav{
+	background-color: #008080;
+	color: white;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 30% 60%;
+     	grid-template-columns: 30% 60%;
+    -webkit-column-gap: 10%;
+          column-gap: 10%;
+	padding: 0% 5%;
+}
+
+nav .array-inputs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+  place-content: center;
+  padding: 5% 0%;
+}
+
+nav .array-inputs #array-size{
+	padding: 5% 0%;
+}
+
+nav .array-inputs #array-speed{
+	padding: 5% 0%;
+}
+nav .array-inputs #array-generater{
+	background-color: transparent;
+	color: white;
+	padding: 1%;
+	margin-top: 5%;
+	border:none;
+
+}
+nav .array-inputs #array-generater:hover{
+	cursor: pointer;
+}
+
+nav .right-div{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+		-ms-flex-direction: column;
+			flex-direction: column;
+}
+
+nav .right-div .nav-heading {
+  display: inline-block;
+  font-size: xxx-large;
+  padding: 3% 0%;
+}
+
+nav .right-div .algos{
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: (16.66667%)[6];
+      grid-template-columns: repeat(6, 19.66667%);
+  	place-content: center;
+  	padding: 2% 0%;
+}
+
+nav .right-div .algos button{
+	background-color: transparent;
+	border: none;
+	border-radius: 20px;
+	color: white;
+	outline: none;
+	padding: 2% 0%;
+	font-size: x-large;
+}
+
+nav .right-div .algos button:hover {
+  background-color: #20B2AA;
+  cursor: pointer;
+}
+
+nav .right-div .algos .button_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .right-div .algos .button_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .right-div .algos .button_selected {
+  background-color: white;
+  color: green;
+}
+
+nav .right-div .algos .button_selected:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+nav .right-div .algos .button_unselected:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+section{
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 20% 60% 20%;
+		grid-template-columns: 20% 60% 20%;
+}
+
+section #container-1{
+	padding: 20%;
+}
+
+section #array-container{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 70%;
+}
+
+section #container-2{
+	padding: 20%
+}
+
+.hide{
+	display: none;
+}
